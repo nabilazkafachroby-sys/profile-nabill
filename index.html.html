@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nabil Profile</title>
+
+    <link rel="stylesheet" href="designnabil.css">
+</head>
+<body>
+
+<div class="card">
+
+    <img src="Reinhard.jpg" alt="Profile" class="profile-img">
+
+    <div class="quote" style="color: black;">
+        Keep Shining
+    </div>
+
+    <div class="about" style="color: black;">
+        <h3>About Me</h3>
+        <p>
+            Hi! I'm Nabil.<br>
+        </p>
+    </div>
+
+    <div class="info" style="color:black;">
+        ✦ tiktok: user03828282 <br>
+        ✦ Discord: kucingorenk <br> 
+    </div>
+
+</div>
+
+<script>
+for(let i=0;i<50;i++){
+    let rain=document.createElement("div");
+    rain.classList.add("rain");
+
+    rain.style.left=Math.random()*100+"vw";
+    rain.style.animationDuration=(Math.random()*2+2)+"s";
+    rain.style.opacity=Math.random();
+
+    document.body.appendChild(rain);
+}
+</script>
+
+</body>
+</html>
